@@ -132,7 +132,7 @@ main {
 }
 .inputs__container--pic {
   position: absolute;
-  top: 50%;
+  top: 30%;
   right: 20px;
   transform: translate(0, -50%);
   display: none;
@@ -143,6 +143,7 @@ main {
   right: 0;
   font-size: 12px;
   display: none;
+  bottom: 0;
 }
 .inputs__container input:focus {
   border-color: black;
