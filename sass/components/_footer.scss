@@ -1,0 +1,14 @@
+footer{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    a:active,a:visited{
+       color: white;
+       font-weight: 600; 
+    }
+    @media (width > 685px) {
+        display: block;
+    }
+}

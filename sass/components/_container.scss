@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+}
+main{
+    background:url(./../images/bg-intro-mobile.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--Red);
+    @media (min-width:685px) {
+        background: url(./../images/bg-intro-desktop.png);
+        background-color: var(--Red);
+    }
+}
+
+.container{
+    padding:5.5rem 30px 4rem 30px;
+    @media (min-width:685px) {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr;
+        place-content: center;
+        padding: 0 10vw;
+    }
+}

@@ -51,6 +51,7 @@ main {
     padding: 0 10vw;
   }
 }
+
 .container__texts {
   align-self: center;
   color: white;
@@ -78,6 +79,7 @@ main {
     opacity: 1;
   }
 }
+
 .container__form {
   display: flex;
   flex-direction: column;
@@ -180,7 +182,8 @@ footer {
   text-align: center;
 }
 footer a:active, footer a:visited {
-  color: var(--Blue);
+  color: white;
+  font-weight: 600;
 }
 @media (width > 685px) {
   footer {
